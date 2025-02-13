@@ -1,0 +1,17 @@
+export const meta = () => {
+  return [
+    { title: "frontmatter.title" },
+    {
+      name: "description",
+      content: "frontmatter.description",
+    },
+  ];
+};
+
+<main className="pt-16">
+# This is some markdown!
+# Example Markdown Post
+
+You can reference your frontmatter data through "attributes". The title of this post is !
+</main>
+
