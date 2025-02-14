@@ -1,3 +1,16 @@
+import { MetaFunction } from "@remix-run/react";
+
+export const meta: MetaFunction = () => {
+    return [
+        { title: "David Charlie | Blog" },
+        { name: "description", content: "Mind rambling contents I scribble down once in a while" },
+        {
+            name: "keywords",
+            content: "devcharlie, davidcharlie, davidcharlie381, blog, blockchain, web3, typescript, solidity, react, remix, ethereum, hardhat, tailwind css"
+        }
+    ];
+};
+
 export default function Blog() {
 
     return (
@@ -9,7 +22,7 @@ export default function Blog() {
             </p>
             <section className="mt-10">
                 <p className="text-lg font-medium text-zinc-700 italic">
-                Coming soon...
+                    Coming soon...
                 </p>
             </section>
         </main>

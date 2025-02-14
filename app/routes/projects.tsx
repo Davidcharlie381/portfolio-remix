@@ -10,7 +10,11 @@ import Tag from "~/components/Tag";
 export const meta: MetaFunction = () => {
     return [
         { title: "David Charlie | Projects" },
-        { name: "description", content: "Welcome to my portfolio!" },
+        { name: "description", content: "A few of the projects I built" },
+        {
+            name: "keywords",
+            content: "devcharlie, davidcharlie, davidcharlie381, projects, blockchain, web3, typescript, solidity, react, remix, ethereum, hardhat, tailwind css"
+        }
     ];
 };
 
@@ -18,9 +22,9 @@ export default function Projects() {
 
     return (
         <main className="pt-16">
-            <h1 className="text-2xl font-semibold text-zinc-700">my projects</h1>
+            <h1 className="text-2xl font-semibold text-zinc-700">projects</h1>
             <p className="mt-8 tracking-wide leading-7 text-[17px] text-zinc-600">
-                some of the creative projects I built either for
+                some of the random creative projects I built either for
                 fun, learning purposes, or curiosity.
             </p>
             <section className="mt-10 grid md:grid-cols-2 gap-8">
@@ -89,7 +93,7 @@ export default function Projects() {
                     </div>
                 </div>
                 <div className="hover:shadow-md group duration-300 border-zinc-300 border-[0.1px] rounded-xl overflow-hidden">
-                    <div className="h-content overflow-hidden"><img src={dtc} alt="" className="group-hover:scale-120 duration-300" /></div>
+                    <div className="h-content overflow-hidden"><img src={dtc} alt="donorchain screenshot" className="group-hover:scale-120 duration-300" /></div>
                     <div className="p-4 ">
                         <div className="flex justify-between">
                             <h3 className="text-xl font-semibold text-zinc-700 mb-2">donorchain</h3>

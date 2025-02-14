@@ -5,7 +5,11 @@ import me from "/images/me.jpg";
 export const meta: MetaFunction = () => {
   return [
     { title: "David Charlie" },
-    { name: "description", content: "Welcome to my portfolio!" },
+    { name: "description", content: "A full-stack blockchain developer and web3 enthusiast" },
+    {
+      name: "keywords",
+      content: "devcharlie, davidcharlie, davidcharlie381, blog, projects, enthusiast, blockchain, web3, typescript, solidity, react, remix, ethereum, hardhat, tailwind css"
+    }
   ];
 };
 
@@ -39,7 +43,7 @@ export default function Index() {
       </p>
       <p className="mt-5 tracking-wide leading-7 text-[17px] text-zinc-600">
         Beyond coding, I enjoy engaging with developer communities, writing technical
-        documentation, learning new tech to enhance my skills, and building tools 
+        documentation, learning new tech to enhance my skills, and building tools
         that make blockchain more accessible.
       </p>
       <h2 className="mt-8 text-2xl font-semibold text-zinc-700">
@@ -48,7 +52,7 @@ export default function Index() {
       <p className="mt-5 tracking-wide leading-7 text-[17px] text-zinc-600">
         Over the years, I've grown into using a number of technologies for
         seamless development. Some of these tools I use for fun explorations,
-         while the most, for building.
+        while the most, for building.
       </p>
       <section className="grid place-items-start grid-cols-2 md:grid-cols-4 gap-y-5 my-7">
         {Array.from([
@@ -70,7 +74,7 @@ export default function Index() {
         {" "}
         In my free time, I hope to use some technologies for specific purposes in the future, and
         I've also had to dabble into some technologies for educational
-        purposes, making comparisons as to which does the job better, writing 
+        purposes, making comparisons as to which does the job better, writing
         about them, and building with them.
       </p>
       <section className="grid place-items-start grid-cols-2 md:grid-cols-4 gap-y-5 mt-7">
